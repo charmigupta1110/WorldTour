@@ -1,0 +1,123 @@
+<html>
+<head>
+<head> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1{
+	font-size=120px;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.book{
+	background:grey;
+	text-align:center;
+}
+.book li{
+	font-size:20px;
+}
+.book ul {
+	display: inline-flex;
+	list-style:none;
+      }
+
+.book ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.book ul li a{
+	text-decoration:none;
+}
+.book ul li:hover{
+	background-color:black;
+	background-radius:3px;
+}
+.myy{
+	background-color: black;
+	color:white;
+}
+.photo{
+	margin-left:950px;
+	font-size:30px;
+	text-decoration:none;
+	text-align:center;
+	background-color:black;
+}
+
+.fa:hover{
+	opacity:0.7;
+}
+.fa-facebook{
+	color:white;
+	background-color:#3B5998;
+}
+.fa-instagram{
+	color:pink;
+	background-color:blue;
+}
+.fa-youtube{
+	color:white;
+	background-color:red;
+}
+.fa-twitter{
+	color:#55ACEE;
+	background-color:white;
+}
+
+.h1{
+	padding:30px;
+}
+#example3{
+	background-image: url('us.jpg');
+	width:100%;
+	height:90%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<h1 align= "center" > Online Booking </h1><br>
+<div class="book">
+<ul>
+<li> <a href="a.php"><i class="fa fa-home"> <br>Home</i> </a></li>
+<li> <a href="b.php"><i class="fa fa-bed" ><br> Hotels </i></a> </li>
+<li> <a href="c.php"> <i class="fa fa-fighter-jet" ><br>Flights </i></a> </li>
+<li> <a href= "Return.php"> <i class="fa fa-car" ><br>Return Flight </i></a></li>
+<li> <a href="e.php"> <i class="fa fa-info-circle" ><br>Help </i></a> </li>
+<li><a href="f.php"> <i class="fa fa-phone"> <br>Contact </i> </a> </li>
+</ul></div><br>
+
+<div id="example3"> </div>
+<form>
+<h3 style="margin-left:50px;"><label for="name"> Your Name(required) <br> 
+<input type="text" id="name" class="name" size="150"> </label><br>
+<label for="email"> Your Email(required) <br> 
+<input type="email" id="email" class="email" size="150"></label> <br>
+<label for="sub"> Subject <br>
+<input type="text" id="sub" class="sub" size="150"> <br>
+<label for="mess"> Message(required) <br> 
+<input type="text" id="mess" class="mess" size="150"> </label> <br></h3>
+<input type="submit" name="submit">
+</form><br>
+</h4>
+</form>
+<div class="myy">
+<h2  style="color:white; margin-left:150px; background-color:black;"> ABOUT US </h2>
+<h3 style="margin-left:50px; background-color:black;"><br><span class="do"></span> Travel is the right place to find hotels and fights at the best price.</h3>
+<div class="photo">
+<a href="https://www.facebook.com/"  class= "fa fa-facebook">  </a>
+<a href="https://www.youtube.com/" class= "fa fa-youtube">  </a>
+<a href="https://www.instagram.com/accounts/login/?hl=en"  class= "fa fa-instagram">  </a>
+<a href="https://twitter.com/login?lang=en"  class= "fa fa-twitter"> </a> </div> <h3 style="margin-left:50px;background-color:black;"><span class="do"> </span> We will help you book tickets for worldwide destinations.</h3>
+<div class="eye"> <a href ="privacypolicy.html"><h4  style="color:white; margin-left:1100px;background-color:black;">  Privacypolicy </h4> </a>  </div><h3 style="margin-left:50px;background-color:black;"><span class ="do"> </span> We have access to a global database of hotels and flights by huge<br></h3><h3 style="margin-left:5px;background-color:black;"> travel booking agencies, which allows us to find hotels and flights in <br></h3> <h3 style="margin-left:5px; background-color:black;">real time and compare them with each other.</h3>
+<br><h3 style="margin-left:50px;background-color:black;"><span class ="do"> </span>Access over 220 countries, 24 languages and 120 currencies.
+</h3></div>
+<br>
+
+
+
+</body>
+</html>

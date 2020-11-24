@@ -1,0 +1,195 @@
+<html>
+<head>
+<style>
+#example1{
+  	background-image: url('img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+         }
+
+div{
+	background-image: url('img3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+        }
+
+#example2{
+	background-image: url('img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+
+#example3{
+	background-image: url('img4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+
+#example4{
+	background-image: url('img5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+h1{
+	font-size=120px;
+     }
+
+</style>
+
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<img class="w3-animate-fading" src="img.jpg" style="width:100%">
+<body>
+
+<h1 align= "center" > Online Booking 
+
+<select class="book"  id="book" name="book">
+<a href ="ce_tt.html" target="_blank"> Book </a>
+<option id="class" value="-"></option>
+<option id="class" value="home"> Home </option>
+<option id="class" value="fight" > Flight </a> </option>
+<option id="class" value="hotels"> Hotels </option>
+<option id="class" value="car"> Rent a Car </option>
+<option id="class" value="air"> Airport Taxi </option>
+</select>
+
+<div id="example1">
+<h1 align= "center" style="color:red;" > SEARCH & <br> COMPARE<br> BEFORE BOOK </h1>
+<h1 align= "center" style="color:red;" > Save upto 50%off on hotel and Fights Worldwide. </h1>
+
+<form>
+<h4 align="left">
+<label for ="name" > City or hotel name :</label>
+<input type=text id="fname" name="fname" > <br>
+<label for= "in"> Check-in: </label>
+<input type="date" id="in" name="in"><br>
+<label for ="out" > Check-out: </label>
+<input type="date" id="out" name="out" > <br>
+<label for="travel" > Travellers:</label><br>
+<label for="adult" > Adult </label>
+<input type="number" id="child" name="child" min="0" max="2000">
+<label for="child" > Children </label>
+<input type="number" id="infant" name="infant" min="0" max="2000">
+<label for="infant" > Infant </label>
+<input type="number" id="adult" name="adult" min="0" max="2000"><br>
+<label for =class > Class: </label><br>
+<input type="radio"  id="pri"  name="class"  value="pri">
+<label for="pri" >Premium class</label><br>
+<input type="radio"  id="eco"  name="class"  value="eco">
+<label for="eco"> Economy </label><br>
+<input type="radio"  id="bu"  name="class"  value="bu">
+<label for="bu" > Business <label> <br>
+</select>
+</h4>
+</form>
+</div>
+
+
+<div>
+<h1 align= "center" style="color:red;" > SEARCH FLIGHTS </h1>
+<h1 align= "center" style="color:red;" > Search And Book Flights With No Booking Fees </h1>
+
+<form>
+<h4 align="left">
+<label for ="name" > Origin:</label>
+<input type=text id="fname" name="fname" > <br>
+<label for ="name" > Destination:</label>
+<input type=text id="fname" name="fname" > <br>
+<label for= "in"> Depart-date: </label>
+<input type="date" id="in" name="in"><br>
+<label for ="out" > Return-date: </label>
+<label for="travel" > Travellers:</label><br>
+<label for="adult" > Adult </label>
+<input type="number" id="child" name="child" min="0" max="2000">
+<label for="child" > Children </label>
+<input type="number" id="infant" name="infant" min="0" max="2000">
+<label for="infant" > Infant </label>
+<input type="number" id="adult" name="adult" min="0" max="2000"><br>
+<label for =class > Class: </label><br>
+<input type="radio"  id="pri"  name="class"  value="pri">
+<label for="pri" >Premium class</label><br>
+<input type="radio"  id="eco"  name="class"  value="eco">
+<label for="eco"> Economy </label><br>
+<input type="radio"  id="bu"  name="class"  value="bu">
+<label for="bu" > Business <label> <br>
+</select>
+</h4>
+</form>
+</div>
+
+<div id="example2">
+<h1 align= "center" style="color:pink;" > SEARCH AND HOTEL <br> PRICES</h1>
+<h1 align= "center" style="color:pink;" > Search And Book Hotels With No Booking Fees</h1> 
+<form>
+<h4 align="left">
+<label for ="name" > City or hotel name :</label>
+<input type=text id="fname" name="fname" > <br>
+<label for= "in"> Check-in: </label>
+<input type="date" id="in" name="in"><br>
+<label for ="out"> Check-out: </label>
+<input type="date" id="out" name="out" > <br>
+<label for="travel"> Travellers:</label><br>
+<label for="adult"> Adult </label>
+<input type="number" id="child" name="child" min="0" max="2000">
+<label for="child"> Children </label>
+<input type="number" id="infant" name="infant" min="0" max="2000">
+<label for="infant"> Infant </label>
+<input type="number" id="adult" name="adult" min="0" max="2000"><br>
+<label for =class> Class: </label><br>
+<input type="radio"  id="pri"  name="class"  value="pri">
+<label for="pri">Premium class</label><br>
+<input type="radio"  id="eco"  name="class"  value="eco">
+<label for="eco"> Economy </label><br>
+<input type="radio"  id="bu"  name="class"  value="bu">
+<label for="bu"> Business <label> <br>
+</select>
+</h4>
+</form>
+</div>
+
+<div id="example3">
+<h1 align= "center" style="color:red;" > SEARCH CARS <br> PRICES</h1>
+<h1 align= "center" style="color:red;" > Unbeatable Price,Car Rentals Booking<br> Expert Service</h1> 
+<form>
+<h4 align="left">
+<label for ="pick" > Pick-up:</label>
+<input type=text id="pick" name="pick" > <br>
+<label for ="Drop-off" > Drop-off:</label>
+<input type=text id="drop" name="drop" > <br>
+<label for= "in"> pick-up date: </label>
+<input type="date" id="in" name="in"><br>
+<label for ="out"> drop-off date: </label>
+<input type="date" id="out" name="out" > <br>
+<label for= "in"> pick-up time: </label>
+<input type="time" id="in" name="in"><br>
+<label for ="out"> drop-off time: </label>
+<input type="time" id="out" name="out" > <br>
+</h4>
+</form>
+</div>
+
+
+<div id="example4">
+<h1 align= "center" style="color:red;" > AIRPORT TAXI <br> PRICES</h1>
+<h1 align= "center" style="color:red;" > Book Taxi Transfer From The Airport</h1> 
+<form>
+<h4 align="left">
+<label for ="pick" > Pick-up:</label>
+<input type=text id="pick" name="pick" > <br>
+<label for ="Drop-off" > Drop-off:</label>
+<input type=text id="drop" name="drop" > <br>
+<label for= "in"> pick-up date: </label>
+<input type="date" id="in" name="in"><br>
+<label for ="out"> drop-off date: </label>
+<input type="date" id="out" name="out" > <br>
+<label for= "in"> pick-up time: </label>
+<input type="time" id="in" name="in"><br>
+<label for ="out"> drop-off time: </label>
+<input type="time" id="out" name="out" > <br>
+</h4>
+</form>
+</div>
+
+
+</body>
+</html> 
